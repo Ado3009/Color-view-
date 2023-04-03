@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background-color: wheat;
+}
+.box {
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.multi {
+  margin-top: 100px;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+input:focus {
+  outline: none;
+  border-color: green;
+  transition: all ease 0.3s;
+  transform: translateY(-3px);
+  box-shadow: 2px 2px 2px 2px green;
+}
+
+footer a {
+  font-size: 40px;
+  color: black;
+}
+
+footer {
+  margin-top: 200px;
+}
