@@ -1,16 +1,19 @@
+* {
+  margin: 0;
+}
+
 body {
   text-align: center;
-  background-color: wheat;
 }
 .box {
   margin: auto;
   width: 300px;
   height: 200px;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 .multi {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 input {
@@ -24,13 +27,13 @@ input {
   border-right: 1px solid grey;
 }
 
-input:focus {
+/* input:focus {
   outline: none;
   border-color: green;
   transition: all ease 0.3s;
   transform: translateY(-3px);
   box-shadow: 2px 2px 2px 2px green;
-}
+} */
 
 footer a {
   font-size: 40px;
@@ -39,4 +42,12 @@ footer a {
 
 footer {
   margin-top: 200px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #9395d3;
 }
